@@ -16,6 +16,6 @@ namespace APP_WEB_MVC_LOCALDB.Models
         public string nombre { get; set; }
 
 
-
+        public int a { get; set; }
     }
 }
