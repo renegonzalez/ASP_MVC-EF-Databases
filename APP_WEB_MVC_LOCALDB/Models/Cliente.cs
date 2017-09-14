@@ -14,5 +14,8 @@ namespace APP_WEB_MVC_LOCALDB.Models
         public long id { get; set; }
         
         public string nombre { get; set; }
+
+
+
     }
 }
