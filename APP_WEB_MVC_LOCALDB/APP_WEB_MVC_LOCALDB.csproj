@@ -156,6 +156,10 @@
     <Compile Include="Migrations\201708221751583_Initial.Designer.cs">
       <DependentUpon>201708221751583_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709201544173_adding-client-values.cs" />
+    <Compile Include="Migrations\201709201544173_adding-client-values.Designer.cs">
+      <DependentUpon>201709201544173_adding-client-values.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -222,6 +226,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201708221751583_Initial.resx">
       <DependentUpon>201708221751583_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709201544173_adding-client-values.resx">
+      <DependentUpon>201709201544173_adding-client-values.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
