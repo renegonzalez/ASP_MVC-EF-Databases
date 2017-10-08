@@ -13,7 +13,7 @@ namespace APP_WEB_MVC_LOCALDB.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201709201544173_adding-client-values"; }
+            get { return "201709201605295_adding-client-values"; }
         }
         
         string IMigrationMetadata.Source

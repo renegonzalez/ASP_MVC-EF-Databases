@@ -15,6 +15,7 @@ namespace APP_WEB_MVC_LOCALDB.Migrations
                         telefono = c.Long(),
                         fax = c.Long(),
                         movil = c.Long(),
+                        email = c.String(),
                         cliente_id = c.Long(),
                     })
                 .PrimaryKey(t => t.id)

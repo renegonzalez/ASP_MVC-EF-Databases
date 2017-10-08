@@ -1,0 +1,72 @@
+﻿@model APP_WEB_MVC_LOCALDB.Models.Vehiculo
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Vehiculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cliente.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cliente.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipo.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipo.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.matricula)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.matricula)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numBastidor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numBastidor)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
